@@ -8,6 +8,7 @@
 
 ## 功能特性
 
+- **🌐 在线试玩**：https://juglanshutao-sudo.github.io/vodyanitsa-listen-wallpaper/Vodyanitsa_Interactive_Preview.html （点开即玩，无需下载）
 - **网页版交互预览**：[`Vodyanitsa_Interactive_Preview.html`](Vodyanitsa_Interactive_Preview.html)——单文件自包含（素材已内嵌），下载后双击即可在浏览器体验完整交互
 - **分层立绘**：主页面 / 歌唱 A / 歌唱 B / 童年 / 回忆 / 士兵 等多套分层画面
 - **物理动效**：独立发丝飘动、衣物飘动、风力与视角响应均可调
