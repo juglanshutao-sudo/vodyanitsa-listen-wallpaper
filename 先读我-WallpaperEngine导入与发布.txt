@@ -1,0 +1,44 @@
+Wallpaper Engine 导入与发布说明
+聆听我声 · 沃雅妮莎 — v3.4.4
+
+这是一套 Wallpaper Engine 网页壁纸工程（type: web），包含完整图片、音频、脚本、预览图和用户属性配置。无需安装 Node.js、运行服务器或联网下载素材。
+ZIP 是工程的交付压缩包；发布到 Steam 创意工坊需要在 Wallpaper Engine 编辑器中完成，不是把 ZIP 直接上传到 Steam 网页。
+
+一、导入（保留随包提供的用户属性）
+1. 完整解压本压缩包。
+2. 找到 Wallpaper Engine 安装目录（Steam 中右键 Wallpaper Engine → 管理 → 浏览本地文件）。
+3. 将整个 Vodyanitsa_Listen 文件夹复制到安装目录下 projects\myprojects\ 中。
+   最终应为 projects\myprojects\Vodyanitsa_Listen\project.json，旁边就是 index.html 和 assets 文件夹。
+   如果同名目录已存在，请先备份旧工程，或给新文件夹另起名称；不要混合不同版本的素材。
+4. 启动 Wallpaper Engine，打开“创建壁纸”/壁纸编辑器，在已有项目中选择“聆听我声 · 沃雅妮莎”。必要时重新打开编辑器刷新列表。
+
+另一种官方导入方式：把 Vodyanitsa_Listen\index.html 拖到编辑器的“创建壁纸”按钮。
+编辑器会复制该文件所在目录的全部素材。如果导入后右侧没有调整字体大小、头发与衣物风力、背景音乐、作者声明等自定义属性，请采用上面的完整工程复制方式，以保留随包的 project.json。
+不要只拖入 preview.jpg，不要选择外层 ZIP，也不要只复制 index.html。
+
+二、在本机预览
+应用到桌面，确认主页面、信件/音符、三个画框、返回、声音及设置能够使用。
+首次画面加载完成后，作者声明在右下角显示 5 秒并自动消失；设置中可以永久关闭。
+若未听见声音，检查壁纸和 Wallpaper Engine 的音量，或点击画面中的开启声音按钮。
+v3.4.4 已在本机 Wallpaper Engine 2.8.42 中验证设置面板、画面适配按钮、字号、复选框和关闭操作。原生画面适配下拉框会触发崩溃，现已替换为两个切换按钮。
+
+三、上传创意工坊
+1. 在该工程的编辑器顶部打开“创意工坊”（Workshop）。
+2. 选择“在创意工坊分享壁纸”/“准备发布”（不同语言或版本的菜单文字可能不同）。
+3. 核对标题、说明、预览图、分类、年龄分级和可见性。包内已有 preview.jpg，可直接选用。
+4. 使用你自己的 Steam 账号点击发布。首次发布后，编辑器会保存创意工坊信息。
+5. 以后请保留并编辑同一个工程，再通过上述菜单发布更新，避免新建重复条目。
+
+四、文件用途
+Vodyanitsa_Listen\project.json    壁纸类型、入口、预览图和用户属性
+Vodyanitsa_Listen\index.html      壁纸运行入口
+Vodyanitsa_Listen\preview.jpg     编辑器/创意工坊预览图
+Vodyanitsa_Listen\assets\         所有图片及 44 个音频文件
+工程功能说明.md                     交互、声音和修复记录
+
+保持整个工程文件夹完整。网页壁纸无需转换成视频或 scene.pkg，才能保留点击交互、台词切换和设置。
+
+原图：原神沃雅妮莎逸闻
+动态制作：ZZZ传奇绳匠法厄同
+
+官方文档：https://docs.wallpaperengine.io/en/web/first/gettingstarted.html

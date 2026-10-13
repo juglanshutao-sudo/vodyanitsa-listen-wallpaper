@@ -1,0 +1,47 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>聆听我声 · 沃雅妮莎</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="creator-notice.css"></head><body>
+<div id="ambient"></div><main id="stage"><canvas id="scene"></canvas><canvas id="effects"></canvas><div id="hotspots"></div><button id="note" title="聆听她的歌声" aria-label="音符：提前进入下一段">♪<span>赴一场约定</span></button><div id="veil"></div></main>
+<header id="navigation"><button id="galleryBack" hidden>来信目录</button><button id="switchTraveler" hidden>切换旅行者</button><button id="back" hidden>返回</button></header>
+<div id="title"><small>VODYANITSA</small><h1>聆听我声</h1><div id="author"></div></div>
+<div id="caption" hidden><b>沃雅妮莎</b><p></p><small>点击画面继续 ▾</small></div>
+<section id="replies" hidden aria-label="旅行者的回答"><div class="reply-heading">旅行者 <span>请选择回答</span></div><div id="reply-options"></div></section>
+<div id="hint">轻触信件，赴一场约定 · 轻触画框，聆听来信</div>
+<button id="unlock">点击开启声音</button><div id="tools"><button id="mute" title="声音">♫</button><button id="pause" title="暂停 / 空格">Ⅱ</button><button id="gear" type="button" title="设置" aria-label="壁纸设置" aria-controls="settings" aria-expanded="false">⚙</button></div>
+<aside id="settings" aria-label="壁纸设置" hidden><div class="panel-head"><span>壁纸设置</span><button id="closeSettings" aria-label="关闭设置">×</button></div><label>背景音乐 <input type="range" data-option="musicVolume" min="0" max="100"></label><label>人物原声 <input type="range" data-option="voiceVolume" min="0" max="100"></label><label>头发与衣物风力 <input type="range" data-option="wind" min="0" max="150"></label><label>视角响应 <input type="range" data-option="parallax" min="0" max="100"></label><label class="font-control"><span>调整字体大小 <output id="fontScaleValue">100%</output></span><input type="range" data-option="fontScale" min="75" max="200" step="5" aria-label="调整字体大小"></label><label><span>底部避让 <output id="bottomMarginValue">96 px</output></span><input type="range" data-option="bottomMargin" min="48" max="240" step="4" aria-label="底部避让"></label><label>作者署名 <span class="fixed-author">ZZZ传奇绳匠法厄同</span></label><label>显示作者声明 <input type="checkbox" data-option="showNotice"></label><label>显示台词 <input type="checkbox" data-option="subtitles"></label><label>显示标题 <input type="checkbox" data-option="showTitle"></label><label>羽笔光标 <input type="checkbox" data-option="cursor"></label><label>唱歌画面自动轮换 <input type="checkbox" data-option="alternate"></label><div class="fit-control"><span id="fit-label">画面适配</span><div class="fit-options" role="group" aria-labelledby="fit-label"><button type="button" data-fit="contain" aria-pressed="true">完整画面</button><button type="button" data-fit="cover" aria-pressed="false">填满屏幕</button></div></div><p class="tip">底部避让可调整按钮、台词和声明离底边的距离。<br>点击画面跳到下一句；出现回答时请选择。<br>音符可提前进入交换与唱歌段落。<br>Esc 返回主页面 · 空格暂停</p></aside>
+<div id="creator-notice" hidden><section id="vn-letter" class="creator-letter" aria-labelledby="vn-heading">
+      <div class="letter-topline"></div>
+      <header class="letter-heading">
+        <span class="feather-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 3C12 1 5 7 6 15l3 3C17 19 23 12 20 3Z M3 22L17 7 M7 17h7 M10 13h7"/></svg></span>
+        <h2 id="vn-heading">壁纸作者有话说</h2>
+        <button id="vn-dismiss" type="button" class="close-letter" aria-label="关闭本次提示"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      </header>
+      <div class="letter-content">
+        <div class="use-notes">
+          <p>壁纸制作不易，请勿转载作品至其他动态壁纸平台</p>
+          <p>使用该壁纸作为视频素材请标注好作者和出处</p>
+        </div>
+        <dl class="creator-accounts" aria-label="创作者各平台账号">
+          <div><dt>bilibili</dt><dd>ZZZ传奇绳匠法厄同</dd></div>
+          <div><dt>小红书</dt><dd>ZZZ传奇绳匠法厄同</dd></div>
+          <div><dt>抖音</dt><dd>ZZZ传奇绳匠法厄同</dd></div>
+          <div><dt>视频号</dt><dd>ZZZ传奇绳匠法厄同</dd></div>
+          <div><dt>快手</dt><dd>ZZZ传奇绳匠法厄同</dd></div>
+          <div><dt>公众号</dt><dd>莉奈娅的博物图鉴</dd></div>
+          <div><dt>YouTube</dt><dd>@vodyanitsa0329</dd></div>
+          <div><dt>TikTok</dt><dd>@luonnotar0114</dd></div>
+        </dl>
+        <div class="support-message">
+          <p>如果喜欢我的作品，可以小小支持一下吗？</p>
+          <p class="follow-message">关注UP获取更多新壁纸进度哦</p>
+        </div>
+        <dl class="credits">
+          <div><dt>原图</dt><dd>原神沃雅妮莎逸闻</dd></div>
+          <div><dt>动态制作</dt><dd>ZZZ传奇绳匠法厄同</dd></div>
+        </dl>
+      </div>
+      <footer class="letter-footer">
+        <div class="timing-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 3h14M5 21h14M7 3v4l5 5-5 5v4M17 3v4l-5 5 5 5v4"/></svg><span>感谢您的理解，该提示框5秒后自动消失</span><span id="vn-count" class="countdown">5s</span></div>
+        <button type="button" id="vn-settings-link" class="settings-link">此提示框可以在用户设置栏永久关闭 <span aria-hidden="true">↗</span></button>
+      </footer>
+      <div class="countdown-track" aria-hidden="true"><div id="vn-progress"></div></div>
+    </section></div>
+<div id="cursor"><svg viewBox="0 0 36 48"><path d="M5 42C12 29 7 12 30 3C31 18 23 28 13 30L5 42Z" fill="#d8f8ef" fill-opacity=".86" stroke="#f4dc9f"/><path d="M5 42L27 8M13 28L23 20M16 21L14 15" fill="none" stroke="#648f95"/></svg></div><div id="loading">正在展开藏信室…</div><script src="audio-data.js"></script><script src="singing-rig.js"></script><script src="cloth-rig.js"></script><script src="renderer.js"></script><script src="creator-notice.js"></script><script src="app.js"></script></body></html>
