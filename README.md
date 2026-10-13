@@ -1,6 +1,6 @@
 # 聆听我声 · 沃雅妮莎 — Wallpaper Engine 互动动态壁纸
 
-《原神》沃雅妮莎（Vodyanitsa）主题的 Wallpaper Engine 网页壁纸（type: web），v3.4.4。
+《原神》沃雅妮莎（Vodyanitsa）主题的 Wallpaper Engine 网页壁纸（type: web），开源发布版 **v1.0**（对应工程内部迭代 v3.4.4）。
 
 清晰分层主页面、独立发丝飘动、眨眼与微笑、约定与歌声、五号藏信室、羽笔光标互动；内置 BGM、人物台词逐句播放与可调用户设置。
 
