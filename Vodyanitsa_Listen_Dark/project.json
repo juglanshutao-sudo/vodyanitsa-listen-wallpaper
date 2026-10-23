@@ -1,0 +1,113 @@
+{
+  "title": "聆听我声 · 沃雅妮莎",
+  "description": "原神 · 沃雅妮莎互动动态壁纸，以柔和暗调呈现「聆听我声」的故事。\n\n发丝随风轻动，伴随自然眨眼与微笑。轻触信件与画框，赴一场约定，聆听歌声与来信。支持台词推进、旅行者回答及羽笔光标互动，内置 BGM，可调整音量、动态幅度与显示设置。\n\n作者声明显示 5 秒，可在设置中关闭。\n\n原图及角色来源：《原神》沃雅妮莎逸闻\n动态与交互制作：ZZZ传奇绳匠法厄同",
+  "file": "index.html",
+  "preview": "preview.jpg",
+  "type": "web",
+  "version": 3,
+  "contentrating": "Everyone",
+  "general": {
+    "properties": {
+      "musicVolume": {
+        "order": 0,
+        "text": "背景音乐",
+        "type": "slider",
+        "value": 42,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "voiceVolume": {
+        "order": 1,
+        "text": "人物原声",
+        "type": "slider",
+        "value": 90,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "wind": {
+        "order": 2,
+        "text": "头发与衣物风力",
+        "type": "slider",
+        "value": 100,
+        "min": 0,
+        "max": 150,
+        "step": 1
+      },
+      "parallax": {
+        "order": 3,
+        "text": "视角响应",
+        "type": "slider",
+        "value": 45,
+        "min": 0,
+        "max": 100,
+        "step": 1
+      },
+      "subtitles": {
+        "order": 6,
+        "text": "显示台词",
+        "type": "bool",
+        "value": true
+      },
+      "showTitle": {
+        "order": 7,
+        "text": "显示标题",
+        "type": "bool",
+        "value": true
+      },
+      "cursor": {
+        "order": 8,
+        "text": "羽笔光标",
+        "type": "bool",
+        "value": true
+      },
+      "alternate": {
+        "order": 9,
+        "text": "唱歌画面自动轮换",
+        "type": "bool",
+        "value": true
+      },
+      "fit": {
+        "order": 11,
+        "text": "画面适配",
+        "type": "combo",
+        "value": "contain",
+        "options": [
+          {
+            "label": "完整画面",
+            "value": "contain"
+          },
+          {
+            "label": "填满屏幕",
+            "value": "cover"
+          }
+        ]
+      },
+      "showNotice": {
+        "order": 13,
+        "text": "启动时显示作者声明（5秒）",
+        "type": "bool",
+        "value": true
+      },
+      "fontScale": {
+        "order": 4,
+        "text": "调整字体大小（%）",
+        "type": "slider",
+        "value": 100,
+        "min": 75,
+        "max": 200,
+        "step": 5
+      },
+      "bottomMargin": {
+        "order": 5,
+        "text": "底部避让（按屏幕缩放）",
+        "type": "slider",
+        "value": 96,
+        "min": 48,
+        "max": 240,
+        "step": 4
+      }
+    }
+  }
+}

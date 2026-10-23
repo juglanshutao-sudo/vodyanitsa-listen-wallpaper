@@ -1,0 +1,14 @@
+interface:
+  display_name: 剧情交互动态壁纸
+  short_description: 从图片或剧情制作交互壁纸，处理独立分层动画、对白音频和桌面适配，并同步交付预览与工程
+  default_prompt: 使用 $build-interactive-wallpaper，把这张图片或这段剧情制作成可交互动态壁纸，保留原画并同步交付 Wallpaper
+    Engine 工程与网页预览。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
